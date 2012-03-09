@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56513F3E150A37B100DE5962 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56513F3D150A37B100DE5962 /* UIKit.framework */; };
+		56513F40150A37B100DE5962 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56513F3F150A37B100DE5962 /* Foundation.framework */; };
+		56513F42150A37B100DE5962 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56513F41150A37B100DE5962 /* CoreGraphics.framework */; };
+		56513F48150A37B100DE5962 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56513F46150A37B100DE5962 /* InfoPlist.strings */; };
+		56513F4A150A37B100DE5962 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56513F49150A37B100DE5962 /* main.m */; };
+		56513F4E150A37B100DE5962 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56513F4D150A37B100DE5962 /* AppDelegate.m */; };
+		56513F51150A37B100DE5962 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56513F50150A37B100DE5962 /* ViewController.m */; };
+		56513F54150A37B100DE5962 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56513F52150A37B100DE5962 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56513F39150A37B100DE5962 /* LabNotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabNotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56513F3D150A37B100DE5962 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56513F3F150A37B100DE5962 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56513F41150A37B100DE5962 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56513F45150A37B100DE5962 /* LabNotebook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LabNotebook-Info.plist"; sourceTree = "<group>"; };
+		56513F47150A37B100DE5962 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56513F49150A37B100DE5962 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56513F4B150A37B100DE5962 /* LabNotebook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LabNotebook-Prefix.pch"; sourceTree = "<group>"; };
+		56513F4C150A37B100DE5962 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56513F4D150A37B100DE5962 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56513F4F150A37B100DE5962 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		56513F50150A37B100DE5962 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56513F53150A37B100DE5962 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56513F36150A37B100DE5962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56513F3E150A37B100DE5962 /* UIKit.framework in Frameworks */,
+				56513F40150A37B100DE5962 /* Foundation.framework in Frameworks */,
+				56513F42150A37B100DE5962 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56513F2E150A37B100DE5962 = {
+			isa = PBXGroup;
+			children = (
+				56513F43150A37B100DE5962 /* LabNotebook */,
+				56513F3C150A37B100DE5962 /* Frameworks */,
+				56513F3A150A37B100DE5962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56513F3A150A37B100DE5962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56513F39150A37B100DE5962 /* LabNotebook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56513F3C150A37B100DE5962 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56513F3D150A37B100DE5962 /* UIKit.framework */,
+				56513F3F150A37B100DE5962 /* Foundation.framework */,
+				56513F41150A37B100DE5962 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56513F43150A37B100DE5962 /* LabNotebook */ = {
+			isa = PBXGroup;
+			children = (
+				56513F4C150A37B100DE5962 /* AppDelegate.h */,
+				56513F4D150A37B100DE5962 /* AppDelegate.m */,
+				56513F4F150A37B100DE5962 /* ViewController.h */,
+				56513F50150A37B100DE5962 /* ViewController.m */,
+				56513F52150A37B100DE5962 /* ViewController.xib */,
+				56513F44150A37B100DE5962 /* Supporting Files */,
+			);
+			path = LabNotebook;
+			sourceTree = "<group>";
+		};
+		56513F44150A37B100DE5962 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56513F45150A37B100DE5962 /* LabNotebook-Info.plist */,
+				56513F46150A37B100DE5962 /* InfoPlist.strings */,
+				56513F49150A37B100DE5962 /* main.m */,
+				56513F4B150A37B100DE5962 /* LabNotebook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56513F38150A37B100DE5962 /* LabNotebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56513F57150A37B100DE5962 /* Build configuration list for PBXNativeTarget "LabNotebook" */;
+			buildPhases = (
+				56513F35150A37B100DE5962 /* Sources */,
+				56513F36150A37B100DE5962 /* Frameworks */,
+				56513F37150A37B100DE5962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabNotebook;
+			productName = LabNotebook;
+			productReference = 56513F39150A37B100DE5962 /* LabNotebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56513F30150A37B100DE5962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 56513F33150A37B100DE5962 /* Build configuration list for PBXProject "LabNotebook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 56513F2E150A37B100DE5962;
+			productRefGroup = 56513F3A150A37B100DE5962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56513F38150A37B100DE5962 /* LabNotebook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56513F37150A37B100DE5962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56513F48150A37B100DE5962 /* InfoPlist.strings in Resources */,
+				56513F54150A37B100DE5962 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56513F35150A37B100DE5962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56513F4A150A37B100DE5962 /* main.m in Sources */,
+				56513F4E150A37B100DE5962 /* AppDelegate.m in Sources */,
+				56513F51150A37B100DE5962 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56513F46150A37B100DE5962 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56513F47150A37B100DE5962 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56513F52150A37B100DE5962 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56513F53150A37B100DE5962 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56513F55150A37B100DE5962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		56513F56150A37B100DE5962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56513F58150A37B100DE5962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LabNotebook/LabNotebook-Prefix.pch";
+				INFOPLIST_FILE = "LabNotebook/LabNotebook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56513F59150A37B100DE5962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LabNotebook/LabNotebook-Prefix.pch";
+				INFOPLIST_FILE = "LabNotebook/LabNotebook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56513F33150A37B100DE5962 /* Build configuration list for PBXProject "LabNotebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56513F55150A37B100DE5962 /* Debug */,
+				56513F56150A37B100DE5962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56513F57150A37B100DE5962 /* Build configuration list for PBXNativeTarget "LabNotebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56513F58150A37B100DE5962 /* Debug */,
+				56513F59150A37B100DE5962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56513F30150A37B100DE5962 /* Project object */;
+}
